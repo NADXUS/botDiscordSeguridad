@@ -2,7 +2,7 @@ const { Client, Intents } = require('discord.js');
 
 
 const discordClient = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-discordClient.login('OTg4NjU2MjExNTQ3MjkxNzU4.G0dc3e.T8gN_rHbCtcsC-IWQPJnShWdkgnFfKWDbBXfYM')
+discordClient.login('MTAwMjk4NTYxNjM2NTA2MDIzNw.Gc8LmS.f1_PON1t9hK2uu9D4q2Nk8w9UHbB7eLUSZ60gA')
 
 discordClient.on('ready', () => {
     console.log("Se ha recivido un mensaje");
